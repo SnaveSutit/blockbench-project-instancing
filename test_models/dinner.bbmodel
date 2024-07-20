@@ -1,0 +1,142 @@
+{
+	"meta": {
+		"format_version": "4.10",
+		"model_format": "free",
+		"box_uv": false
+	},
+	"name": "dinner",
+	"model_identifier": "",
+	"visible_box": [1, 1, 0],
+	"variable_placeholders": "",
+	"variable_placeholder_buttons": [],
+	"timeline_setups": [],
+	"unhandled_root_fields": {},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "chair",
+			"position": [0, 0, 0],
+			"rotation": [0, 0, 0],
+			"visibility": true,
+			"projectPath": "D:\\github-repos\\snavesutit\\blockbench-project-instancing\\test_models\\chair.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "63552ceb-3d05-459e-20ed-6d647a8b8869"
+		},
+		{
+			"name": "player",
+			"position": [-16, 0, 0],
+			"rotation": [0, -90, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\player.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "67a3956d-aee6-e87d-61c5-cc8b7a37b9d0"
+		},
+		{
+			"name": "player3",
+			"position": [-16, 0, -16],
+			"rotation": [0, -90, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\player.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "89e428c9-0fdb-4d9c-cd06-c6bd810074da"
+		},
+		{
+			"name": "player4",
+			"position": [-16, 0, 16],
+			"rotation": [0, -90, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\player.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "1518b01b-8f36-7c19-0327-eb745d9e6880"
+		},
+		{
+			"name": "player2",
+			"position": [16, 0, -16],
+			"rotation": [0, 90, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\player.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "ef4591c8-4287-7fef-dbae-a0242b6cb1cd"
+		},
+		{
+			"name": "player5",
+			"position": [16, 0, 0],
+			"rotation": [0, 90, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\player.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "0fa2fe84-840b-e03a-b473-5f015fac3e67"
+		},
+		{
+			"name": "player6",
+			"position": [16, 0, 16],
+			"rotation": [0, 90, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\player.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "c7aedb37-1fd1-3d67-7bd5-0260adbd8cfc"
+		},
+		{
+			"name": "chair2",
+			"position": [0, 0, -16],
+			"rotation": [0, 0, 0],
+			"visibility": true,
+			"projectPath": "D:\\github-repos\\snavesutit\\blockbench-project-instancing\\test_models\\chair.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "33410d39-ceec-7aa8-4478-34e1ebeb5288"
+		},
+		{
+			"name": "chair3",
+			"position": [0, 0, 16],
+			"rotation": [0, 0, 0],
+			"visibility": true,
+			"projectPath": "D:\\github-repos\\snavesutit\\blockbench-project-instancing\\test_models\\chair.bbmodel",
+			"type": "project_instancing:instance",
+			"uuid": "93c5d3a1-233c-be1f-3168-857b2a1a2287"
+		},
+		{
+			"name": "Project Instance",
+			"position": [0, 15, -8],
+			"rotation": [90, 0, 0],
+			"visibility": true,
+			"projectPath": "C:\\Users\\SnaveSutit\\Downloads\\coin.ajblueprint",
+			"type": "project_instancing:instance",
+			"uuid": "87101226-7272-c8b6-c29b-e66832fbb14c"
+		},
+		{
+			"name": "Project Instance",
+			"position": [0, 0, 32],
+			"rotation": [0, 0, 0],
+			"visibility": true,
+			"projectPath": "D:\\github-repos\\animated-java\\animated-java\\test_blueprints\\armor_stand.ajblueprint",
+			"type": "project_instancing:instance",
+			"uuid": "fb2b928a-0452-4096-a627-b04365cf0401"
+		}
+	],
+	"outliner": [
+		"63552ceb-3d05-459e-20ed-6d647a8b8869",
+		"93c5d3a1-233c-be1f-3168-857b2a1a2287",
+		"33410d39-ceec-7aa8-4478-34e1ebeb5288",
+		"67a3956d-aee6-e87d-61c5-cc8b7a37b9d0",
+		"1518b01b-8f36-7c19-0327-eb745d9e6880",
+		"89e428c9-0fdb-4d9c-cd06-c6bd810074da",
+		"0fa2fe84-840b-e03a-b473-5f015fac3e67",
+		"ef4591c8-4287-7fef-dbae-a0242b6cb1cd",
+		"c7aedb37-1fd1-3d67-7bd5-0260adbd8cfc",
+		"87101226-7272-c8b6-c29b-e66832fbb14c",
+		"fb2b928a-0452-4096-a627-b04365cf0401"
+	],
+	"textures": [],
+	"export_options": {
+		"gltf": {
+			"encoding": "ascii",
+			"scale": 16,
+			"embed_textures": true,
+			"armature": false,
+			"animations": true
+		}
+	}
+}

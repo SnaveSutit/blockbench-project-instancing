@@ -1,0 +1,50 @@
+{
+	"type": "module",
+	"name": "project_instancing",
+	"title": "Project Instancing",
+	"version": "1.0.0",
+	"display_version": "1.0.0",
+	"min_blockbench_version": "4.10.0",
+	"author": {
+		"name": "Titus Evans (SnaveSutit)",
+		"email": "snavesutit@gmail.com",
+		"url": "https://discordapp.com/users/213746232923783168"
+	},
+	"repository": {
+		"type": "github",
+		"url": "https://github.com/Animated-Java/animated-java"
+	},
+	"description": "A Blockbench plugin that allows for the instancing of projects.",
+	"main": "./dist/index.js",
+	"types": "./dist/src/index.d.ts",
+	"private": true,
+	"scripts": {
+		"build:scripts": "esbuild --bundle --platform=node --outfile=dist/build.cjs --packages=external ./tools/esbuild.ts",
+		"dev": "yarn build:scripts && node ./dist/build.cjs --mode=dev",
+		"prod": "yarn build:scripts && node ./dist/build.cjs",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/eslint": "^8.21.1",
+		"@types/node": "^17.0.21",
+		"@typescript-eslint/eslint-plugin": "^5.54.0",
+		"@typescript-eslint/parser": "^5.54.0",
+		"blockbench-types": "https://github.com/SnaveSutit/blockbench-types.git",
+		"esbuild": "^0.17.10",
+		"esbuild-plugin-import-glob": "^0.1.1",
+		"esbuild-plugin-inline-image": "^0.0.9",
+		"esbuild-plugin-inline-worker": "^0.1.1",
+		"esbuild-plugin-svelte": "^0.1.1",
+		"eslint": "^8.35.0",
+		"prettier": "^2.5.1",
+		"svelte": "^3.55.1",
+		"svelte-awesome-color-picker": "^3.0.0-beta.7",
+		"svelte-preprocess": "^5.0.1",
+		"svelte-preprocess-esbuild": "^3.0.1",
+		"typescript": "^5.5.3"
+	},
+	"dependencies": {
+		"@types/js-yaml": "^4.0.9",
+		"js-yaml": "^4.1.0"
+	}
+}

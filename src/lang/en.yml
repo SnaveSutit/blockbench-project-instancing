@@ -1,0 +1,16 @@
+instancing.format_category.instancing: Instancing
+
+instancing.instance.property.project_path: Project Path
+
+instancing.action.create_instance.title: Create Project Instance
+instancing.instance.file_dialog_filter.bbmodel: Blockbench Projects
+instancing.instance.file_dialog_filter.ajblueprint: Animated Java Blueprints
+
+instancing.action.select_project_to_instance.title: Select Project to Instance
+instancing.action.select_project_to_instance.file_dialog_message: Select a project to instance
+
+instancing.instance.file_dialog_filter.all: All Compatible Files
+instancing.model_loader.no_elements_found.title: No Elements Found in the Selected Project
+instancing.model_loader.no_elements_found.message: |-
+  The selected project does not contain any usable elements!
+  Please select a different project.
